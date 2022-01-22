@@ -1,0 +1,17 @@
+<form method="post" action="index.php" name="reg_form">
+    <fieldset>
+        <legend>Введите данные для регистрации:</legend>
+        Имя пользователя:<br>
+        <input type="text" name="create_name"><br>
+        E-mail:<br>
+        <input type="email" name="create_email"><br>
+        Логин:<br>
+        <input type="text" name="create_login"><br>
+        Пароль:<br>
+        <input type="password" name="create_password"><br>
+        Введите результат выражения для подтверждения:<br>
+        <img src="captcha.php"><input type="text" name="captcha"><br>
+        <input type="submit" name="let_reg" value="Зарегистрироваться">
+        <input type="submit" name="log_in" value="Войти в аккаунт">
+    </fieldset>
+</form>

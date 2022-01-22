@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Risque', cursive;
+    background: url('Images/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+    header {
+        display: flex;
+        width: 1000px;
+        min-height: 100px;
+        margin: 100px auto;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid #f0c248;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #f0c248;
+            opacity: 0.7;
+        }
+
+    main {
+        width: 1000px;
+        min-height: 500px;
+        margin: 100px auto;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid #f0c248;
+        justify-content: center;
+        align-items: center;
+    }
+        li {
+            padding: 20px;     
+        }
+            li a{
+                opacity: 0.4;
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+                transition: background .3s ease;
+            }
+            li a:hover {
+                text-decoration: underline;
+                color: white;
+                opacity: 1;
+            }
+        .error {
+            padding: 20px;
+            opacity: 0.4;
+            font-size: 18px;
+            color: white;
+        }
+
+    footer {
+        width: 600px;
+        min-height: 100px;
+        margin: 100px auto;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid #f0c248;
+        border-radius: 10px;
+    }
+        footer a {
+            display: flex;
+            width: 600px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            color: #f0c248;
+            opacity: 0.7;
+            background: black;
+            border-radius: 10px;
+        }
+        footer a:hover {
+            background: rgba(0, 0, 0, 0);
+        }

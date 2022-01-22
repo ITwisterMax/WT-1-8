@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+form {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+}
+    fieldset {
+        width: 500px;
+        margin: 50px auto;
+        border-radius: 10px;
+    }
+        legend {
+            margin: auto;
+            font-size: 20px;
+        }
+        input[type = text] {
+            width: 480px;
+            padding: 6px;
+            margin: 10px auto;
+            border-radius: 10px;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 16px;
+        }
+        input[type = password] {
+            width: 480px;
+            padding: 6px;
+            margin: 10px auto;
+            border-radius: 10px;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 16px;
+        }
+        input[type = email] {
+            width: 480px;
+            padding: 6px;
+            margin: 10px auto;
+            border-radius: 10px;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 16px;
+        }
+        input[type = submit] {
+            width: 200px;
+            padding: 6px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 92px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 16px;
+        }
+            input[type = submit]:last-child {
+                margin-right: 0;
+            }
+            input[type = submit]:hover {
+                background-color: silver;
+            }

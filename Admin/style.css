@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+.successmessage {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    color: green;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;       
+}
+
+.errormessage {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    color: red;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.data {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    width: 636px;
+    height: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+}
+
+.buttons {
+    display: inline;
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 16px; 
+    width: 250px; 
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.file {
+    display: inline;
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 16px; 
+    width: 510px;
+}
+
+.left {
+    width: 900px;
+    min-height: 1000px;
+    float: left;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+    th {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: left;
+        width: 170px;
+        border: solid 1px black;
+    }
+    td {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: left;
+        width: 170px;
+        border: solid 1px black;
+    }

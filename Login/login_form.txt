@@ -1,0 +1,11 @@
+<form method="post" action="index.php" name="log_form">
+    <fieldset>
+        <legend>Введите логин и пароль:</legend>
+        Логин:<br>
+        <input type="text" name="login"><br>
+        Пароль:<br>
+        <input type="password" name="password"><br>
+        <input type="submit" name="let_log_in" value="Войти в аккаунт">
+        <input type="submit" name="reg" value="Зарегистрироваться">
+    </fieldset>
+</form>
